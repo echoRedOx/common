@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "common3j"
+version = "0.0.1"
+dependencies = [
+    'importlib-metadata; python_version>="3.11"',
+]
+
+[tool.setuptools.packages]
+find = {}  # Scan the project directory with the default parameters
